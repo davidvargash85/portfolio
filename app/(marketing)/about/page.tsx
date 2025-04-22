@@ -1,0 +1,166 @@
+// ...same imports
+import Footer from "@/components/footer/main";
+import Header from "@/components/header/main";
+import Heading from "@/components/heading/main";
+import { Button } from "@/components/ui/button";
+import Card from "@/components/ui/card";
+import MainTitle from "@/components/ui/main-title";
+import { HEAD } from "@/config/seo";
+import { getBaseUrl } from "@/lib/utils";
+import { HeadType } from "@/types";
+import {
+  ArrowUpRightIcon,
+  CheckIcon,
+  PaperclipIcon as FileIcon,
+  TextIcon as LearnMoreIcon,
+} from "lucide-react";
+import { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { Fragment } from "react";
+
+if (!HEAD || HEAD.length === 0) {
+  console.error("⚠️ HEAD configuration is missing or empty");
+}
+
+const PAGE = "About";
+const page = HEAD.find((page: HeadType) => page.page === PAGE) as HeadType;
+
+export const metadata: Metadata = {
+  title: page.title,
+  applicationName: page.title,
+  description: page.description,
+  metadataBase: new URL(getBaseUrl(page.slug)),
+  alternates: {
+    canonical: getBaseUrl(page.slug),
+  },
+};
+
+export default async function AboutPage() {
+  return (
+    <Fragment>
+      <Header />
+      <Heading variant="default">
+        <MainTitle
+          title={page.page}
+          description={page.description}
+          className="mx-auto mt-6 mb-14 max-w-3xl px-4 sm:px-6 lg:px-8"
+        />
+      </Heading>
+
+      <div className="border-border bg-background relative min-h-[50vh] max-w-full border-t">
+        <div className="relative mx-auto -mt-10 max-w-3xl items-center px-4 sm:px-6 lg:px-8">
+          <Card className="mb-6 overflow-hidden">
+            <div className="shrink-0">
+              <Image
+                title="Cover Image"
+                alt="Cover Image"
+                src="/images/cover.webp"
+                layout="responsive"
+                width={1200}
+                height={630}
+                quality={100}
+                className="h-128 w-full object-cover"
+                priority
+              />
+            </div>
+            <div className="relative mx-auto flex max-w-3xl flex-col px-8 pt-6 pb-8 text-pretty sm:px-14">
+              <div className="flex items-center justify-start">
+                <h2 className="text-accent-foreground w-full text-center text-3xl font-semibold tracking-tight sm:w-auto sm:text-left">
+                  Why Work with David?
+                </h2>
+              </div>
+              <article id="about-me" className="mt-4">
+                <p className="text-foreground w-full text-center text-lg sm:w-auto sm:text-left">
+                  A versatile software engineer with deep technical expertise and strong product intuition.
+                </p>
+
+                <ul
+                  role="list"
+                  className="text-foreground wrap-everywhere mt-6 max-w-xl space-y-4"
+                >
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Based in <strong className="font-semibold">Florida, USA</strong>, working with clients and teams across the globe.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Over a decade of experience across industries like{" "}
+                      <strong className="font-semibold">E-commerce</strong>,{" "}
+                      <strong className="font-semibold">Healthcare</strong>, and{" "}
+                      <strong className="font-semibold">Automotive</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Specializes in{" "}
+                      <strong className="font-semibold">React</strong>,{" "}
+                      <strong className="font-semibold">TypeScript</strong>,{" "}
+                      <strong className="font-semibold">Next.js</strong>,{" "}
+                      <strong className="font-semibold">Tailwind CSS</strong>, and{" "}
+                      <strong className="font-semibold">Node.js</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Experienced with building accessible, high-performance, and scalable frontend applications.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Fluent in{" "}
+                      <strong className="font-semibold">English</strong>,{" "}
+                      <strong className="font-semibold">Spanish</strong>, and{" "}
+                      <strong className="font-semibold">Portuguese</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Passionate about clean code, intuitive UX, and continuous learning—always exploring new tools and frameworks.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      When not coding, you'll find him enjoying time with family, building side projects, or exploring the latest in AI.
+                    </span>
+                  </li>
+                </ul>
+              </article>
+              <div className="mt-8 flex w-full flex-col gap-3 sm:mx-auto sm:flex-row">
+                <Link href="/story">
+                  <Button className="group hover:ring-border w-full px-5 py-2 transition-colors duration-200 hover:border-black/20 hover:ring-2 dark:hover:border-white/20">
+                    <LearnMoreIcon className="size-4" aria-hidden="true" />
+                    Learn more
+                  </Button>
+                </Link>
+                <Link
+                  href="/files/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outline"
+                    className="group hover:ring-border w-full px-5 py-2 transition-colors duration-200 hover:border-black/20 hover:ring-2 dark:hover:border-white/20"
+                  >
+                    <FileIcon className="size-4" aria-hidden="true" />
+                    Download Resume
+                    <ArrowUpRightIcon className="size-4" aria-hidden="true" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </div>
+      <Footer />
+    </Fragment>
+  );
+}
