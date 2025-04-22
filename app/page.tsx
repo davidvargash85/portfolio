@@ -10,7 +10,7 @@ import { Fragment } from "react";
 
 export default async function HomePage() {
   const projects: ProjectType[] = allProjects
-    // .filter((project) => project.featured === true)
+    .filter((project) => project.featured === true)
     .sort((a, b) => a.order - b.order);
 
   return (
