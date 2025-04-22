@@ -85,7 +85,7 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
           only efficient but also impactful in connecting people with the
           resources they need. I have over 10 years of experience in software
           development, including leading teams and projects at Office Depot and
-          TBC Corporation. I hold a Bachelor's degree in Computer Science from
+          TBC Corporation. I hold a Bachelor degree in Computer Science from
           Universidad de las Ciencias Informáticas.
         </p>
       </div>

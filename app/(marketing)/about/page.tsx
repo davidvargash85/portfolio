@@ -129,7 +129,7 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      When not coding, you'll find him enjoying time with family, building side projects, or exploring the latest in AI.
+                      When not coding, you will find him enjoying time with family, building side projects, or exploring the latest in AI.
                     </span>
                   </li>
                 </ul>
