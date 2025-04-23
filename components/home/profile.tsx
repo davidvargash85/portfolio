@@ -90,7 +90,7 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
           <strong>API Gateway</strong>, <strong>Route 53</strong>,{" "}
           <strong>Cognito</strong>, <strong>DynamoDB</strong>, and{" "}
           <strong>CloudFront</strong> to deliver serverless, secure, and
-          globally distributed applications. I’m also experienced with
+          globally distributed applications. I&apos;m also experienced with
           containerization and CI/CD pipelines using <strong>Docker</strong>,{" "}
           <strong>Jenkins</strong>, and <strong>Git Actions</strong>, and I
           apply Infrastructure as Code principles to automate deployments and
@@ -100,8 +100,8 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
           With over 10 years of experience, I specialize in building full-stack
           solutions that are efficient, resilient, and impactful. My background
           includes leading engineering teams and projects at Office Depot and
-          TBC Corporation. I hold a Bachelor's degree in Computer Science from
-          Universidad de las Ciencias Informáticas, and I remain deeply
+          TBC Corporation. I hold a Bachelor&apos;s degree in Computer Science
+          from Universidad de las Ciencias Informáticas, and I remain deeply
           committed to connecting people with the technology and resources they
           need.
         </p>

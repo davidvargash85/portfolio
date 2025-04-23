@@ -132,6 +132,16 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
+                      Skilled in modern CI/CD workflows and deployment pipelines
+                      using <strong className="font-semibold">Vercel</strong>,{" "}
+                      <strong className="font-semibold">Jenkins</strong>,{" "}
+                      <strong className="font-semibold">GitHub Actions</strong>,
+                      and <strong className="font-semibold">Docker</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
                       Proven leadership as a tech lead managing cross-functional
                       teams and driving delivery in high-stakes environments.
                     </span>
@@ -149,13 +159,13 @@ export default async function AboutPage() {
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
                       Passionate about clean code, intuitive UX, and continuous
-                      learning—always exploring new tools and frameworks.
+                      learning. Always exploring new tools and frameworks.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      When not coding, you will find him enjoying time with
+                      When not coding, you&apos;ll find him enjoying time with
                       family, building side projects, or exploring the latest in
                       AI.
                     </span>
