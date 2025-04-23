@@ -74,19 +74,36 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
           Full Stack Engineer
         </p>
         <p>
-          I am a Senior Software Engineer and Tech Lead with focus in the
-          frontend, I design and develop frontend applications with a strong
-          focus on accessibility, and scalability. I also architect
-          high-performance APIs and search engines optimized for speed and
-          scalability, enabling efficient service discovery and referrals. With
-          expertise in ReactJS, Typescript, AWS, Docker, Jenkins, Git Actions,
-          and Infrastructure as a Service, I specialize in developing robust and
-          scalable solutions. I am committed to building systems that are not
-          only efficient but also impactful in connecting people with the
-          resources they need. I have over 10 years of experience in software
-          development, including leading teams and projects at Office Depot and
-          TBC Corporation. I hold a Bachelor degree in Computer Science from
-          Universidad de las Ciencias Informáticas.
+          I am a Senior Software Engineer, Full Stack Developer, and Tech Lead
+          with a strong emphasis on the frontend. I design and build scalable,
+          accessible applications with high attention to performance and user
+          experience. On the backend, I work extensively with{" "}
+          <strong>NodeJS</strong> and <strong>TypeScript</strong>, and I also
+          have experience developing enterprise-level services using{" "}
+          <strong>C#</strong>. I architect robust APIs and search platforms
+          optimized for speed and scalability, supporting efficient service
+          discovery and data-driven interactions.
+        </p>
+        <p>
+          My cloud expertise is rooted in <strong>AWS</strong>, where I work
+          with services like <strong>Lambda</strong>,{" "}
+          <strong>API Gateway</strong>, <strong>Route 53</strong>,{" "}
+          <strong>Cognito</strong>, <strong>DynamoDB</strong>, and{" "}
+          <strong>CloudFront</strong> to deliver serverless, secure, and
+          globally distributed applications. I’m also experienced with
+          containerization and CI/CD pipelines using <strong>Docker</strong>,{" "}
+          <strong>Jenkins</strong>, and <strong>Git Actions</strong>, and I
+          apply Infrastructure as Code principles to automate deployments and
+          ensure reliability.
+        </p>
+        <p>
+          With over 10 years of experience, I specialize in building full-stack
+          solutions that are efficient, resilient, and impactful. My background
+          includes leading engineering teams and projects at Office Depot and
+          TBC Corporation. I hold a Bachelor's degree in Computer Science from
+          Universidad de las Ciencias Informáticas, and I remain deeply
+          committed to connecting people with the technology and resources they
+          need.
         </p>
       </div>
     </section>

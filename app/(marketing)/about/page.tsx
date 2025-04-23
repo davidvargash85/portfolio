@@ -72,7 +72,9 @@ export default async function AboutPage() {
               </div>
               <article id="about-me" className="mt-4">
                 <p className="text-foreground w-full text-center text-lg sm:w-auto sm:text-left">
-                  A versatile software engineer with deep technical expertise and strong product intuition.
+                  A versatile full-stack software engineer with deep technical
+                  expertise, strong product intuition, and over a decade of
+                  experience building impactful solutions.
                 </p>
 
                 <ul
@@ -82,13 +84,15 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Based in <strong className="font-semibold">Florida, USA</strong>, working with clients and teams across the globe.
+                      Based in{" "}
+                      <strong className="font-semibold">Florida, USA</strong>,
+                      working with clients and teams across the globe.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Over a decade of experience across industries like{" "}
+                      Over 10 years of experience across industries like{" "}
                       <strong className="font-semibold">E-commerce</strong>,{" "}
                       <strong className="font-semibold">Healthcare</strong>, and{" "}
                       <strong className="font-semibold">Automotive</strong>.
@@ -97,18 +101,39 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Specializes in{" "}
+                      Full-stack expertise in{" "}
                       <strong className="font-semibold">React</strong>,{" "}
                       <strong className="font-semibold">TypeScript</strong>,{" "}
                       <strong className="font-semibold">Next.js</strong>,{" "}
-                      <strong className="font-semibold">Tailwind CSS</strong>, and{" "}
-                      <strong className="font-semibold">Node.js</strong>.
+                      <strong className="font-semibold">Node.js</strong>, and{" "}
+                      <strong className="font-semibold">C#</strong>.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Experienced with building accessible, high-performance, and scalable frontend applications.
+                      Cloud-native development experience with{" "}
+                      <strong className="font-semibold">AWS</strong>, including{" "}
+                      <strong className="font-semibold">Lambda</strong>,{" "}
+                      <strong className="font-semibold">API Gateway</strong>,{" "}
+                      <strong className="font-semibold">Cognito</strong>,{" "}
+                      <strong className="font-semibold">DynamoDB</strong>,{" "}
+                      <strong className="font-semibold">CloudFront</strong>, and{" "}
+                      <strong className="font-semibold">Route 53</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Experienced in architecting accessible, high-performance,
+                      and scalable frontend and backend systems.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Proven leadership as a tech lead managing cross-functional
+                      teams and driving delivery in high-stakes environments.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -123,13 +148,16 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Passionate about clean code, intuitive UX, and continuous learning—always exploring new tools and frameworks.
+                      Passionate about clean code, intuitive UX, and continuous
+                      learning—always exploring new tools and frameworks.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      When not coding, you will find him enjoying time with family, building side projects, or exploring the latest in AI.
+                      When not coding, you will find him enjoying time with
+                      family, building side projects, or exploring the latest in
+                      AI.
                     </span>
                   </li>
                 </ul>
