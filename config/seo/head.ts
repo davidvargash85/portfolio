@@ -38,7 +38,7 @@ const HEAD: HeadType[] = [
     page: "Projects",
     title: truncateTitle("Projects | David Vargas | React & Full-Stack Work"),
     description: truncateDescription(
-      "Explore David's work—real-world applications built using React, Next.js, Node.js, and scalable backend systems."
+      "Explore David's portfolio built using React, Next.js, Node.js, and scalable backend systems like .NET & Ruby on Rails and OpenSearch (ElasticSearch)."
     ),
     slug: "/projects",
   },
