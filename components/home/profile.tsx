@@ -108,7 +108,7 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
           <strong>Material UI</strong>, and <strong>TailwindCSS</strong>,
           allowing me to deliver complete solutions end-to-end. I’ve led
           engineering teams and delivered critical systems at Unite Us, Office
-          Depot, and TBC Corporation. I hold a Bachelor's degree in Computer
+          Depot, and TBC Corporation. I hold a Bachelor`&lsquo;`s degree in Computer
           Science from Universidad de las Ciencias Informáticas and remain
           passionate about building efficient, resilient systems that solve
           real-world problems.
