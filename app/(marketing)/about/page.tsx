@@ -92,7 +92,7 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Over 10 years of experience across industries like{" "}
+                      Over 15 years of experience across industries like{" "}
                       <strong className="font-semibold">E-commerce</strong>,{" "}
                       <strong className="font-semibold">Healthcare</strong>, and{" "}
                       <strong className="font-semibold">Automotive</strong>.
@@ -101,20 +101,29 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Full-stack expertise in{" "}
-                      <strong className="font-semibold">React</strong>,{" "}
-                      <strong className="font-semibold">TypeScript</strong>,{" "}
-                      <strong className="font-semibold">Next.js</strong>,{" "}
-                      <strong className="font-semibold">Node.js</strong>, and{" "}
-                      <strong className="font-semibold">C#</strong>.
+                      Full-stack expertise with a strong backend focus using{" "}
+                      <strong className="font-semibold">Node.js</strong>,{" "}
+                      <strong className="font-semibold">Express</strong>,{" "}
+                      <strong className="font-semibold">MongoDB</strong>,{" "}
+                      <strong className="font-semibold">React</strong>, and{" "}
+                      <strong className="font-semibold">TypeScript</strong>.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Cloud-native development experience with{" "}
-                      <strong className="font-semibold">AWS</strong>, including{" "}
-                      <strong className="font-semibold">Lambda</strong>,{" "}
+                      Experienced in designing scalable APIs, microservices
+                      architectures, and search capabilities using{" "}
+                      <strong className="font-semibold">OpenSearch</strong> and{" "}
+                      <strong className="font-semibold">GraphQL</strong>.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
+                    <span>
+                      Cloud-native development with{" "}
+                      <strong className="font-semibold">AWS</strong> services
+                      like <strong className="font-semibold">Lambda</strong>,{" "}
                       <strong className="font-semibold">API Gateway</strong>,{" "}
                       <strong className="font-semibold">Cognito</strong>,{" "}
                       <strong className="font-semibold">DynamoDB</strong>,{" "}
@@ -125,18 +134,11 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Experienced in architecting accessible, high-performance,
-                      and scalable frontend and backend systems.
-                    </span>
-                  </li>
-                  <li className="flex gap-x-3">
-                    <CheckIcon className="text-primary mt-1 size-5 flex-none" />
-                    <span>
-                      Skilled in modern CI/CD workflows and deployment pipelines
-                      using <strong className="font-semibold">Vercel</strong>,{" "}
+                      Skilled in CI/CD workflows and infrastructure automation
+                      using <strong className="font-semibold">Docker</strong>,{" "}
                       <strong className="font-semibold">Jenkins</strong>,{" "}
                       <strong className="font-semibold">GitHub Actions</strong>,
-                      and <strong className="font-semibold">Docker</strong>.
+                      and <strong className="font-semibold">Terraform</strong>.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -158,8 +160,8 @@ export default async function AboutPage() {
                   <li className="flex gap-x-3">
                     <CheckIcon className="text-primary mt-1 size-5 flex-none" />
                     <span>
-                      Passionate about clean code, intuitive UX, and continuous
-                      learning. Always exploring new tools and frameworks.
+                      Passionate about clean architecture, robust APIs,
+                      intuitive UX, and continuous learning across the stack.
                     </span>
                   </li>
                   <li className="flex gap-x-3">

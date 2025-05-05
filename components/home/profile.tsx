@@ -75,35 +75,43 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
         </p>
         <p>
           I am a Senior Software Engineer, Full Stack Developer, and Tech Lead
-          with a strong emphasis on the frontend. I design and build scalable,
-          accessible applications with high attention to performance and user
-          experience. On the backend, I work extensively with{" "}
-          <strong>NodeJS</strong> and <strong>TypeScript</strong>, and I also
-          have experience developing enterprise-level services using{" "}
-          <strong>C#</strong>. I architect robust APIs and search platforms
-          optimized for speed and scalability, supporting efficient service
-          discovery and data-driven interactions.
+          with over 15 years of experience designing and delivering
+          backend-driven web applications. I specialize in architecting scalable
+          APIs and services using <strong>Node.js</strong>,{" "}
+          <strong>Express</strong>, and <strong>TypeScript</strong>, and I have
+          extensive experience implementing <strong>microservices</strong> and{" "}
+          <strong>search platforms</strong> using technologies like{" "}
+          <strong>OpenSearch</strong>.
         </p>
         <p>
-          My cloud expertise is rooted in <strong>AWS</strong>, where I work
-          with services like <strong>Lambda</strong>,{" "}
-          <strong>API Gateway</strong>, <strong>Route 53</strong>,{" "}
-          <strong>Cognito</strong>, <strong>DynamoDB</strong>, and{" "}
-          <strong>CloudFront</strong> to deliver serverless, secure, and
-          globally distributed applications. I&apos;m also experienced with
-          containerization and CI/CD pipelines using <strong>Docker</strong>,{" "}
-          <strong>Jenkins</strong>, and <strong>Git Actions</strong>, and I
-          apply Infrastructure as Code principles to automate deployments and
-          ensure reliability.
+          My backend expertise includes developing RESTful and GraphQL APIs,
+          modeling data with <strong>MongoDB</strong> and{" "}
+          <strong>PostgreSQL</strong>, and building service-oriented
+          architectures that support modular, high-throughput systems. I’ve
+          designed integrations and internal tooling to power platform-wide
+          service discovery, optimized data queries, and search functionality at
+          scale.
         </p>
         <p>
-          With over 10 years of experience, I specialize in building full-stack
-          solutions that are efficient, resilient, and impactful. My background
-          includes leading engineering teams and projects at Office Depot and
-          TBC Corporation. I hold a Bachelor&apos;s degree in Computer Science
-          from Universidad de las Ciencias Informáticas, and I remain deeply
-          committed to connecting people with the technology and resources they
-          need.
+          I build secure, serverless cloud-native applications on{" "}
+          <strong>AWS</strong> using services like<strong>Lambda</strong>,{" "}
+          <strong>API Gateway</strong>, <strong>DynamoDB</strong>,{" "}
+          <strong>CloudFront</strong>, <strong>Route 53</strong> and{" "}
+          <strong>Cognito</strong>. I implement CI/CD pipelines using{" "}
+          <strong>Docker</strong>, <strong>Jenkins</strong>, and{" "}
+          <strong>GitHub Actions</strong>, and I follow Infrastructure as Code
+          practices to ensure automated, repeatable deployments.
+        </p>
+        <p>
+          While my foundation is in backend systems, I’m also proficient in
+          frontend development using <strong>React</strong>,{" "}
+          <strong>Material UI</strong>, and <strong>TailwindCSS</strong>,
+          allowing me to deliver complete solutions end-to-end. I’ve led
+          engineering teams and delivered critical systems at Unite Us, Office
+          Depot, and TBC Corporation. I hold a Bachelor's degree in Computer
+          Science from Universidad de las Ciencias Informáticas and remain
+          passionate about building efficient, resilient systems that solve
+          real-world problems.
         </p>
       </div>
     </section>
