@@ -104,6 +104,8 @@ export default async function AboutPage() {
                       Full-stack expertise with a strong backend focus using{" "}
                       <strong className="font-semibold">Node.js</strong>,{" "}
                       <strong className="font-semibold">Express</strong>,{" "}
+                      <strong className="font-semibold">Microsoft .NET</strong>{" "}
+                      for building APIs,{" "}
                       <strong className="font-semibold">MongoDB</strong>,{" "}
                       <strong className="font-semibold">React</strong>, and{" "}
                       <strong className="font-semibold">TypeScript</strong>.

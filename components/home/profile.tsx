@@ -76,16 +76,18 @@ const Profile: FC<ProfileProps> = memo(({ className }) => {
         <p>
           I am a Senior Software Engineer, Full Stack Developer, and Tech Lead
           with over 15 years of experience designing and delivering
-          backend-driven web applications. I specialize in architecting scalable
+          backend-driven web applications.           I specialize in architecting scalable
           APIs and services using <strong>Node.js</strong>,{" "}
-          <strong>Express</strong>, and <strong>TypeScript</strong>, and I have
-          extensive experience implementing <strong>microservices</strong> and{" "}
+          <strong>Express</strong>, <strong>Microsoft .NET</strong> for
+          building APIs, and <strong>TypeScript</strong>, and I have extensive
+          experience implementing <strong>microservices</strong> and{" "}
           <strong>search platforms</strong> using technologies like{" "}
           <strong>OpenSearch</strong>.
         </p>
         <p>
-          My backend expertise includes developing RESTful and GraphQL APIs,
-          modeling data with <strong>MongoDB</strong> and{" "}
+          My backend expertise includes developing RESTful and GraphQL APIs with
+          Node.js and <strong>Microsoft .NET</strong>, modeling data with{" "}
+          <strong>MongoDB</strong> and{" "}
           <strong>PostgreSQL</strong>, and building service-oriented
           architectures that support modular, high-throughput systems. I’ve
           designed integrations and internal tooling to power platform-wide

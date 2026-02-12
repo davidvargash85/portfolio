@@ -6,7 +6,7 @@ const HEAD: HeadType[] = [
     page: "Home",
     title: truncateTitle("David Vargas | Full-Stack Software Engineer"),
     description: truncateDescription(
-      "Experienced Software Engineer specializing in high-performance frontend applications, React, and scalable architectures."
+      "Experienced Software Engineer specializing in high-performance frontend applications, React, Node.js, .NET APIs, and scalable architectures."
     ),
     slug: "/",
   },
@@ -14,7 +14,7 @@ const HEAD: HeadType[] = [
     page: "About",
     title: truncateTitle("About | David Vargas | Software Engineer"),
     description: truncateDescription(
-      "Discover David Vargas's background in building robust frontend and backend systems, from enterprise platforms to consumer applications."
+      "Discover David Vargas's background in building robust frontend and backend systems with Node.js, .NET, and more—from enterprise platforms to consumer applications."
     ),
     slug: "/about",
   },
